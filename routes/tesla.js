@@ -47,6 +47,7 @@ router.get("/", (req, res) => {
   models.Company.findAll({
     where: {
       [Op.or]: [
+        { symbol: "TSLA", date: "2020-03-31" },
         { symbol: "TSLA", date: "2019-12-31" },
         { symbol: "TSLA", date: "2019-09-30" },
         { symbol: "TSLA", date: "2019-06-30" },
