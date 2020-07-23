@@ -4,9 +4,7 @@
   "description": "",
   "main": "app.js",
     "scripts": {
-      "dev": "next",
-      "build": "next build",
-      "start": "next start"
+      "start": "node app.js"
     },
   "repository": {
     "type": "git",
