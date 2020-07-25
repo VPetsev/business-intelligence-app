@@ -18,8 +18,8 @@ class AboutUs extends Component {
                 <span>About Us</span>
                 <h2>Focused On Actionable Insights</h2>
                 <p>
-                  We provide users to display their data through intuitive and
-                  insightful charts at the click of a button.
+                  We provide users a way to display their data through intuitive
+                  and insightful charts at the click of a button.
                 </p>
 
                 <ul className="about-list">
@@ -31,10 +31,10 @@ class AboutUs extends Component {
                     <i className="flaticon-tick"></i>
                     Bar Charts
                   </li>
-                  <li>
+                  {/* <li>
                     <i className="flaticon-tick"></i>
                     Pie Charts
-                  </li>
+                  </li> */}
                   {/* <li>
                     <i className="flaticon-tick"></i>
                     Advanced Advisory Team
